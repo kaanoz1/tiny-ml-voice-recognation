@@ -15,7 +15,7 @@ frames: int = duration * fs; # Frame count.
 
 
 categories: List[str] = ["red", "blue", "off"] 
-sample_size: int = 10; # Count for each category.
+sample_size: int = 50; # Count for each category.
 
 upper_bound: int = np.iinfo(int16).max # 32767
 #%% md
@@ -28,7 +28,7 @@ for category in categories:
         recording: ndarray = sd.rec(frames=frames, samplerate=fs, channels=1)
         sd.wait(ignore_errors=False)
         audio_in_integer_format = (recording * upper_bound).astype(int16)
-        write(f"../data/{file_name}", fs, audio_in_integer_format)
+        write(f"./data/{file_name}", fs, audio_in_integer_format)
         print(f"Recorded for category {category}, index: {i}")
         
 print("Finished!")

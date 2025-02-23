@@ -4,18 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b8be834-6f72-41c3-a60d-65df1483d7c3" name="Changes" comment="1: Initial Commit">
+    <list default="true" id="3b8be834-6f72-41c3-a60d-65df1483d7c3" name="Changes" comment="#">
+      <change afterPath="$PROJECT_DIR$/data_visualization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/data_visualization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/voice-recognation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/voice-recognation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/voice_recording.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/voice_recording.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voice_recording.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/voice_recording.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,7 +38,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/kaanoz1/tiny-ml-voice-recognation.git&quot;,
-    &quot;accountId&quot;: &quot;ff0ec75e-305b-41c9-ac1d-c62cbeebba9b&quot;
+    &quot;accountId&quot;: &quot;37e57b71-4855-44ad-b2d3-a408cc1518e6&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -41,22 +50,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.voice-recognation.executor": "Run",
-    "Python.voice_recording.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Kaan/PycharmProjects/voice-recognation/scripts/voice_recording.py",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.voice-recognation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.voice_recording.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kaano/PycharmProjects/tiny-ml-voice-recognation/scripts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.voice_recording">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="voice-recognation" />
@@ -86,6 +97,9 @@
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -106,6 +120,9 @@
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -130,8 +147,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
-        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
+        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
       </set>
     </attachedChunks>
   </component>
@@ -145,6 +162,16 @@
       <updated>1740214803338</updated>
       <workItem from="1740214804518" duration="506000" />
       <workItem from="1740215442603" duration="747000" />
+      <workItem from="1740229985237" duration="308000" />
+      <workItem from="1740230420474" duration="663000" />
+      <workItem from="1740231329325" duration="876000" />
+      <workItem from="1740232224644" duration="259000" />
+      <workItem from="1740232497452" duration="401000" />
+      <workItem from="1740233050562" duration="12115000" />
+      <workItem from="1740290901774" duration="2722000" />
+      <workItem from="1740300498241" duration="11911000" />
+      <workItem from="1740314937608" duration="2192000" />
+      <workItem from="1740323071968" duration="9449000" />
     </task>
     <task id="LOCAL-00001" summary="1: Initial Commit">
       <option name="closed" value="true" />
