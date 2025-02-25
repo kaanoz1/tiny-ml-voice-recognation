@@ -63,8 +63,6 @@ labels = np.array(tf.io.gfile.listdir(str(data_dir)))
 audio_files_via_path: list[str] = tf.io.gfile.glob('data/*')
 
 audio_path_files = tf.random.shuffle(audio_files_via_path)
-
-
 #%% md
 # Preprocessing data
 #%%
@@ -164,8 +162,6 @@ test_dataset_waveform: DatasetV2 = labeled_waveform_dataset.skip(train_size).tak
 validation_dataset_waveform: DatasetV2 = labeled_waveform_dataset.skip(train_size + test_size).take(
     validation_size)  # 20% of
 
-for wave, label in test_dataset_waveform:
-    print(label)
 #%% md
 # Converting Wave paths to labeled Spectograms
 #%%
@@ -180,9 +176,7 @@ def stft(waveform_par: tf.Tensor) -> tf.Tensor:
 
 def waveforms_to_spectrogram(waveform_par: tf.Tensor, label_par: tf.Tensor):
     spectrogram_var = stft(waveform_par)
-
-    spectrogram_shape = tf.shape(spectrogram_var)
-    spectrogram_var = tf.reshape(spectrogram_var,(spectrogram_shape[0], spectrogram_shape[1]))
+    spectrogram_var = tf.reshape(spectrogram_var,(129, 176))
     spectrogram_var = tf.expand_dims(spectrogram_var, axis=0)
     label_par = tf.math.argmax(label_par == categories)
     return spectrogram_var, label_par
@@ -198,11 +192,8 @@ testing_dataset = convert_waveform_to_spectrogram(test_dataset_waveform)
 validation_dataset = convert_waveform_to_spectrogram(validation_dataset_waveform)
 
 
-shape_of_features: ([int,int,int]) = training_dataset.element_spec[0].shape
-
-
-for spectrogram_val, label in training_dataset:
-    print(label)
+shape_of_features = training_dataset.element_spec[0].shape
+print(shape_of_features)
 
 #%% md
 # **Batching:**
@@ -211,10 +202,12 @@ BATCH_SIZE = 1
 train_dataset_batch = training_dataset.batch(BATCH_SIZE)
 validation_dataset = validation_dataset.batch(BATCH_SIZE)
 
+
 #%% md
 # Building Model:
 #%%
 norm_layer = Normalization()
+
 norm_layer.adapt(train_dataset_batch.map(lambda x, _: x))
 
 model = models.Sequential()
@@ -259,7 +252,7 @@ test_label_arr = np.array(test_label_arr);
 
 
 
-ith_sample: int = 10;
+ith_sample: int = 5;
 count_of_samples: int = len(test_spec_arr);
 
 model_prediction = model.predict(test_spec_arr);
@@ -274,4 +267,4 @@ print("Actual Label:", categories[actual_label])
 #%% md
 # Model Saving:
 #%%
-model.save("/models/model_0.keras");
+model.save("models/model_0.keras");
