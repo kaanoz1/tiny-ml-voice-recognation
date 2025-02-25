@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b8be834-6f72-41c3-a60d-65df1483d7c3" name="Changes" comment="#">
-      <change afterPath="$PROJECT_DIR$/models/model_0.keras" afterDir="false" />
+    <list default="true" id="3b8be834-6f72-41c3-a60d-65df1483d7c3" name="Changes" comment="4: Saving Model">
+      <change afterPath="$PROJECT_DIR$/converting_model.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_visualization_predict.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualization_predict.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/data_visualization_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/data_visualization_predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_0.keras" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/kaano/PycharmProjects/tiny-ml-voice-recognation/scripts/data_visualization_predict.py",
+    "last_opened_file_path": "C:/Users/kaano/PycharmProjects/tiny-ml-voice-recognation/scripts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +64,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kaano\PycharmProjects\tiny-ml-voice-recognation\models" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.voice_recording">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="voice-recognation" />
@@ -176,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740215031874</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="4: Saving Model">
+      <option name="closed" value="true" />
+      <created>1740475065502</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740475065502</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +209,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1: Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1: Initial Commit" />
+    <MESSAGE value="4: Saving Model" />
+    <option name="LAST_COMMIT_MESSAGE" value="4: Saving Model" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/data_visualization_predict.ipynb</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
