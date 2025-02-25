@@ -270,3 +270,8 @@ print("Categories:", categories);
 print(f"Model Prediction {ith_sample + 1}'th of {count_of_samples}",model_prediction[ith_sample])
 print("Actual Label:", categories[actual_label])
 
+
+#%% md
+# Model Saving:
+#%%
+model.save("/models/model_0.keras");

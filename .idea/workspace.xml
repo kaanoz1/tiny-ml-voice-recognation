@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b8be834-6f72-41c3-a60d-65df1483d7c3" name="Changes" comment="#">
-      <change afterPath="$PROJECT_DIR$/data_visualization.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/data_visualization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/voice-recognation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/voice-recognation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/voice_recording.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/voice_recording.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voice_recording.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/voice_recording.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/model_0.keras" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualization_predict.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualization_predict.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/data_visualization_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/data_visualization_predict.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,24 +45,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.voice-recognation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.voice_recording.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kaano/PycharmProjects/tiny-ml-voice-recognation/scripts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.voice-recognation.executor": "Run",
+    "Python.voice_recording.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/kaano/PycharmProjects/tiny-ml-voice-recognation/scripts/data_visualization_predict.py",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.voice_recording">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="voice-recognation" />
