@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b8be834-6f72-41c3-a60d-65df1483d7c3" name="Changes" comment="5: Converting TFLite">
-      <change afterPath="$PROJECT_DIR$/testing_tflite_model.ipynb" afterDir="false" />
+    <list default="true" id="3b8be834-6f72-41c3-a60d-65df1483d7c3" name="Changes" comment="6: Real Time Prediction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/converting_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/converting_model.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_visualization_predict.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualization_predict.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_0.keras" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_0.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_0.keras" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_0.keras" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_0.tflite" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_0.tflite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/data_visualization_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/data_visualization_predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/testing_tflite_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/testing_tflite_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_tflite_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/testing_tflite_model.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +177,8 @@
       <workItem from="1740300498241" duration="11911000" />
       <workItem from="1740314937608" duration="2192000" />
       <workItem from="1740323071968" duration="9449000" />
-      <workItem from="1740500093955" duration="11255000" />
+      <workItem from="1740500093955" duration="11367000" />
+      <workItem from="1740595849772" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="1: Initial Commit">
       <option name="closed" value="true" />
@@ -202,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740476913048</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="6: Real Time Prediction">
+      <option name="closed" value="true" />
+      <created>1740511594271</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740511594271</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +233,8 @@
     <MESSAGE value="1: Initial Commit" />
     <MESSAGE value="4: Saving Model" />
     <MESSAGE value="5: Converting TFLite" />
-    <option name="LAST_COMMIT_MESSAGE" value="5: Converting TFLite" />
+    <MESSAGE value="6: Real Time Prediction" />
+    <option name="LAST_COMMIT_MESSAGE" value="6: Real Time Prediction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -10,7 +10,6 @@ from typing import List
 duration: int = 1;  # In seconds. Duration of the recording.
 fs: int = 22050;  # Frequency of recording, 22050 samples per seconds. Continues -> Discrete.
 frames: int = duration * fs;  # Frame count.
-upper_bound: int = np.iinfo(int16).max  # 32767
 
 categories: List[str] = ["red", "blue", "off"]
 #%%

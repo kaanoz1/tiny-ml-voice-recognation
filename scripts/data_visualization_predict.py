@@ -3,13 +3,12 @@
 #%%
 import pathlib
 from pathlib import Path
-from typing import final
 
 from scipy.io.wavfile import read
 import numpy as np
 from matplotlib import pyplot as plt
 import tensorflow as tf
-
+from scipy.special import softmax
 
 from tensorflow.keras.layers import Rescaling, Normalization, TextVectorization
 from tensorflow.keras import models, layers
@@ -252,15 +251,17 @@ test_label_arr = np.array(test_label_arr);
 
 
 
-ith_sample: int = 5;
+ith_sample: int = 0;
 count_of_samples: int = len(test_spec_arr);
 
-model_prediction = model.predict(test_spec_arr);
+model_prediction = model.predict(test_spec_arr)[ith_sample];
 actual_label = test_label_arr[ith_sample]
+probabilities = softmax(model_prediction)
 
 
 print("Categories:", categories);
-print(f"Model Prediction {ith_sample + 1}'th of {count_of_samples}",model_prediction[ith_sample])
+print(f"Model Prediction {ith_sample + 1}'th of {count_of_samples}",model_prediction)
+print("Probabilities:", probabilities)
 print("Actual Label:", categories[actual_label])
 
 
